@@ -15,11 +15,11 @@ if os.path.isfile(args.input)==0:
     exit()
 
 
-# filename = "raw_data/n_thakur_petition.docx"
-# filename = "raw_data/WRIT ROHTAS SINGH VS DDA.docx"
+#filename = "raw_data/n_thakur_petition.docx"
+#filename = "raw_data/WRIT ROHTAS SINGH VS DDA.docx"
 filename = args.input
 
-# function to get text from a doc file
+#function to get text from a doc file
 import docx
 from tika import parser
 def getText(filename):
